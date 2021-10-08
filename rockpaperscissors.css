@@ -1,0 +1,53 @@
+.body {
+    display:flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    padding:16px;
+}
+
+.scorecard {
+    background-color: brown;
+    border:6px black solid;
+    border-radius:12px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:300px;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+    padding:50px;
+}
+
+img {
+    height:180px;
+    width:180px;
+    border:6px black solid;
+}
+
+.button-panel {
+    background-color:brown;
+    border:6px black solid;
+    border-radius:12px;
+    display:flex;
+    align-items: center;
+    padding:16px;
+    padding-left:60px;
+    padding-right:60px;
+}
+
+.button-panel img {
+    margin:20px;
+    border:6px black solid;
+    border-radius:12px;
+}
